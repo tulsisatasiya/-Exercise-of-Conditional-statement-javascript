@@ -1,0 +1,29 @@
+<script type="text/javascript">
+
+    var a = parseInt(prompt("Enter first value:"));
+    var b = parseInt(prompt("Enter second value:"));
+    var c = prompt("Enter one sign from following +,-,*,/")
+    var ans;
+
+    if(c == '+'){
+        ans = a + b;
+        document.write("<p style = 'font-size : 30px'>Ans = " + ans + "</p>");    
+    }
+    else if(c == '-'){
+        ans = a - b;
+        document.write("<p style = 'font-size : 30px'>Ans = " + ans + "</p>");
+    }
+    else if(c == '*'){
+        ans = a * b;
+        document.write("<p style = 'font-size : 30px'>Ans = " + ans + "</p>");
+    }
+    else if(c == '/'){
+        ans = a / b;
+        document.write("<p style = 'font-size : 30px'>Ans = " + ans + "</p>");
+    }
+    else{
+        document.write("Invalid input");
+    }
+
+
+</script>
